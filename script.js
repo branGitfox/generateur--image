@@ -34,7 +34,7 @@ async function searchImages () {
                 const a = document.createElement('a') 
                 a.href = result.urls.full
                 a.target = "_blank"
-                a.textContent = result.alt_description
+                a.textContent = "Regarder"
                 div.appendChild(img)
                 div.appendChild(a)
                 results_cont.appendChild(div)

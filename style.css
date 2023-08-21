@@ -90,7 +90,7 @@ form {
 
 a {
     display: block;
-    text-decoration: none;
+    /* text-decoration: none; */
    color: black;
    font-size: 18px;
    text-align: center;
@@ -101,6 +101,10 @@ a {
     .result {
         width: 45%;
     }
+    .results-container {
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width:480px){
